@@ -11,7 +11,7 @@ ___
  * Download and Install [NodeJS](https://nodejs.org/en/)
  * Clone the Repository
  ```bash
- git clone https://github.com/chocoholic-me/GitProfile.git
+ git clone https://github.com/chocoholic-me/google-keep-clone.git
  ```
  * Goto the Repository Directory
  * Install all the Dependencies
