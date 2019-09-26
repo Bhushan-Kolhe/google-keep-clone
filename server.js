@@ -32,7 +32,7 @@ db.once('open', () => require('./routes/tasks')(server));
 
 
 //Serve Static Files
-server.get('/', restify.plugins.serveStatic({
+server.get('/*', restify.plugins.serveStatic({
     directory: './dist/google-keep-clone',
     default: 'index.html'
   }));
