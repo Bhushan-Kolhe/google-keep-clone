@@ -1,0 +1,97 @@
+.Task-Container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.Task {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Task:hover {
+    box-shadow: 1px 1px 5px 1px #ccc;
+}
+
+.Task-Header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Task-Delete {
+    width: 20px;
+    display: none;
+    padding: 10px;
+}
+
+.Task:hover .Task-Delete{
+    display: inline;
+}
+
+.Task-Title {
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.Task-Content {
+    white-space: pre-line;
+    padding: 0px 20px 10px 20px;
+}
+
+@media( max-width: 1000px ) {
+    .Task-Container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media( max-width: 750px ) {
+    .Task-Container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media( max-width: 500px ) {
+    .Task-Container {
+        grid-template-columns: 1fr;
+        width: 95%;
+    }
+}
+
+@media( min-width: 1500px ) {
+    .Task-Container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        width: 95%;
+    }
+}
+@media( min-width: 2000px ) {
+    .Task-Container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        width: 95%;
+    }
+}
+@media( min-width: 2500px ) {
+    .Task-Container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        width: 95%;
+    }
+}
+@media( min-width: 3000px ) {
+    .Task-Container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        width: 95%;
+    }
+}
+@media( min-width: 3500px ) {
+    .Task-Container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        width: 95%;
+    }
+}
+@media( min-width: 4000px ) {
+    .Task-Container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        width: 95%;
+    }
+}

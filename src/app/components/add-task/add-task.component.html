@@ -1,0 +1,11 @@
+<div class="Add-Tast-Cantainer">
+    <div class="Add-Task">
+        <input id="Title" name="title" type="text" placeholder="Title..." [(ngModel)]="title" />
+        <textarea oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"' name="content" [(ngModel)]="content" id="content" placeholder="Take a note..." cols="30" rows="1"></textarea>
+        <div class="Submit-Container">
+            <div class="Submit" (click)="onSubmit()">
+                <i class="fa fa-play" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+</div>

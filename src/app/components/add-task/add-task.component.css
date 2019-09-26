@@ -1,0 +1,91 @@
+.Add-Tast-Cantainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 75px 0px;
+}
+
+.Add-Task{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 20px;
+    box-shadow: 0px 1px 2px 2px #bbb;
+    border-radius: 10px;
+}
+
+input,
+textarea {
+    outline: none;
+    border: none;
+    height: 30px;
+    font-size: 20px;
+}
+
+textarea {
+    letter-spacing: 0px;
+}
+
+#Title {
+    display: none;
+}
+
+#content {
+    resize: none;
+    font-size: 17px;
+}
+
+.Add-Task:hover #Title {
+    display: inline;
+}
+
+.Submit-Container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Submit {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(6, 190, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: -40px;
+}
+
+i {
+    color: #fff;
+}
+
+@media( max-width: 1500px ) {
+    .Add-Task {
+        width: 50%;
+    }
+}
+
+@media( max-width: 1000px ) {
+    .Add-Task {
+        width: 60%;
+    }
+}
+
+@media( max-width: 500px ) {
+    .Add-Task {
+        width: 80%;
+    }
+}
+
+@media( min-width: 2000px ) {
+    .Add-Task {
+        width: 40%;
+    }
+}
+
+@media( min-width: 3000px ) {
+    .Add-Task {
+        width: 30%;
+    }
+}

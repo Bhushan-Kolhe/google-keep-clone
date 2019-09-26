@@ -1,0 +1,9 @@
+<div class="Task-Container">
+    <div class="Task" *ngFor="let task of tasks">
+        <div class="Task-Header">
+            <div class="Task-Title">{{ task.title }}</div>
+            <div (click)="onDelete(task)" class="Task-Delete"><i class="fa fa-trash-o" aria-hidden="true"></i></div>
+        </div>
+        <div class="Task-Content">{{ task.task }}</div> 
+    </div>
+</div>
