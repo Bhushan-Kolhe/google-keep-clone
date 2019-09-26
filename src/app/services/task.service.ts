@@ -24,23 +24,23 @@ export class TaskService {
 
   //Get all Tasks from server
   getTasks():Observable<Task[]> {
-    return this.http.get<Task[]>("http://localhost:5000/tasks");
+    return this.http.get<Task[]>("/tasks");
   }
 
   //Delete a task on server
   deleteTask(task:Task):Observable<Task> {
-    const url = `http://localhost:5000/tasks/${task._id}`; 
+    const url = `/tasks/${task._id}`; 
     let result = this.http.delete<Task>(url, this.httpOptions);
     return result;
   }
 
   addTask(task):Observable<Task> {
-    const url = `http://localhost:5000/tasks`;
+    const url = `/tasks`;
     return this.http.post<Task>(url, task, this.httpOptions);
   }
 
   updateTasksinUI() {
-    this.http.get<Task[]>("http://localhost:5000/tasks").subscribe(tasks => {
+    this.http.get<Task[]>("/tasks").subscribe(tasks => {
       this.tasks.next(tasks);
     });
   }
