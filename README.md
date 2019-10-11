@@ -28,3 +28,5 @@ ___
  ```
  * The development server should be availabe at [Localhost](http://localhost:5000/ "localhost") at port 5000
 ___
+## Screenshots
+![Screenshot (357)](https://user-images.githubusercontent.com/32388461/66628713-3e9a0a00-ec1d-11e9-89fa-65d38af95a68.png)
