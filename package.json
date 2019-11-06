@@ -17,7 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "mongoose": "^5.7.1",
+    "mongoose": "^5.7.5",
     "mongoose-timestamp": "^0.6.0",
     "restify": "^8.4.0",
     "restify-cors-middleware": "^1.1.1",
