@@ -4,7 +4,7 @@ This is a simple clone of Google Keep. This was made using:
  * Angular
  * Node.Js
  * Restify
- * MangoDB (mlab)
+ * MongoDB (mlab)
 
 ___
 ## How To Use
